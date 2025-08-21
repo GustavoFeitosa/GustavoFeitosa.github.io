@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dr. Gustavo Feitosa | Cardiologista</title>
+  <meta name="description" content="Cardiologista clínico em Salvador-BA. Atendimento em consultório, telemedicina e segunda opinião. Pesquisa em IA aplicada à cardiologia.">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="Dr. Gustavo Feitosa | Cardiologista" />
+  <meta property="og:description" content="Cardiologista clínico em Salvador-BA. Atendimento em consultório, telemedicina e pesquisa em IA em Saúde." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=Dr.+Gustavo+Feitosa" />
+  <meta property="og:url" content="https://seu-dominio.com.br" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Tailwind CSS CDN (compatível com GitHub Pages) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: {
+              50: '#eff6ff', 100: '#dbeafe', 200: '#bfdbfe', 300: '#93c5fd',
+              400: '#60a5fa', 500: '#3b82f6', 600: '#2563eb', 700: '#1d4ed8',
+              800: '#1e40af', 900: '#1e3a8a'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><text y='50%' x='50%' dominant-baseline='middle' text-anchor='middle' font-size='48'>❤️</text></svg>">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Physician",
+    "name": "Dr. Gustavo Feitosa",
+    "medicalSpecialty": "Cardiology",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Salvador",
+      "addressRegion": "BA",
+      "addressCountry": "BR"
+    },
+    "url": "https://seu-dominio.com.br",
+    "sameAs": [
+      "https://www.linkedin.com/in/seu-perfil",
+      "https://www.instagram.com/seu-perfil"
+    ],
+    "openingHours": "Mo-Fr 08:00-18:00",
+    "telephone": "+55-71-99999-9999"
+  }
+  </script>
+</head>
+<body class="antialiased text-slate-800">
+  <!-- Navbar -->
+  <header class="sticky top-0 z-40 bg-white/80 backdrop-blur border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="flex items-center justify-between h-16">
+        <a href="#" class="flex items-center gap-2 font-semibold">
+          <span class="text-primary-700">Dr. Gustavo Feitosa</span>
+          <span class="hidden sm:inline text-slate-500">| Cardiologia</span>
+        </a>
+        <nav class="hidden md:flex items-center gap-6 text-sm">
+          <a href="#sobre" class="hover:text-primary-700">Sobre</a>
+          <a href="#atuacao" class="hover:text-primary-700">Atuação</a>
+          <a href="#pesquisa" class="hover:text-primary-700">Pesquisa</a>
+          <a href="#conteudos" class="hover:text-primary-700">Conteúdos</a>
+          <a href="#contato" class="px-3 py-2 rounded-lg bg-primary-600 text-white hover:bg-primary-700">Agendar</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-gradient-to-b from-primary-50 to-white">
+    <div class="max-w-6xl mx-auto px-4 py-16 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-3xl md:text-5xl font-bold leading-tight">Cardiologia clínica com ciência, tecnologia e cuidado humano</h1>
+        <p class="mt-4 text-lg text-slate-600">Atendimento em Salvador-BA. Segunda opinião, prevenção, diagnóstico e tratamento personalizado. Integração de evidências e Inteligência Artificial aplicada à prática clínica.</p>
+        <div class="mt-6 flex gap-3">
+          <a href="#contato" class="px-5 py-3 rounded-xl bg-primary-600 text-white hover:bg-primary-700">Agendar consulta</a>
+          <a href="#pesquisa" class="px-5 py-3 rounded-xl border border-slate-300 hover:border-primary-300">Ver pesquisa</a>
+        </div>
+      </div>
+      <div class="relative">
+        <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1200&auto=format&fit=crop" alt="Estetoscópio e tecnologia médica" class="rounded-2xl shadow-xl w-full object-cover aspect-[4/3]"/>
+        <div class="absolute -bottom-6 -left-6 bg-white rounded-2xl shadow p-4 w-64">
+          <p class="text-sm">+18 anos de experiência • Incor/USP • Pesquisa em IA aplicada à saúde</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="py-16">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-10 items-start">
+      <div class="md:col-span-2">
+        <h2 class="text-2xl font-semibold">Sobre</h2>
+        <p class="mt-4 text-slate-600">Sou cardiologista clínico, formado em Medicina (2003) e com treinamento em Cardiologia no Incor/USP (2007–2008). Atendo em consultório, com foco em prevenção, estratificação de risco, insuficiência cardíaca, fibrilação atrial e acompanhamento longitudinal. Desenvolvo pesquisa de doutorado no SENAI CIMATEC em Inteligência Artificial aplicada à detecção precoce de injúria renal em pacientes com insuficiência cardíaca.</p>
+        <ul class="mt-6 grid sm:grid-cols-2 gap-3 text-sm">
+          <li class="p-3 border rounded-xl">Membro de equipes nos Hospitais Cárdio Pulmonar e Aliança – Rede D’Or</li>
+          <li class="p-3 border rounded-xl">Professor na Escola Bahiana de Medicina</li>
+          <li class="p-3 border rounded-xl">Sócio fundador da Zumtec – soluções digitais em saúde</li>
+          <li class="p-3 border rounded-xl">Atendimento presencial e telemedicina</li>
+        </ul>
+      </div>
+      <aside class="space-y-3">
+        <div class="p-4 rounded-xl bg-primary-50 border border-primary-100">
+          <p class="text-sm">CRM-BA • RQE (se aplicável)</p>
+          <p class="text-sm text-slate-600">Convênios e particular. Emito laudos, relatórios e segunda opinião.</p>
+        </div>
+        <div class="p-4 rounded-xl border">
+          <p class="text-sm font-medium">Locais de atendimento</p>
+          <p class="text-sm text-slate-600">Salvador – BA • Consultório e Rede D’Or</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Atuação -->
+  <section id="atuacao" class="py-16 bg-slate-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-semibold">Áreas de atuação</h2>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <div class="p-6 bg-white rounded-2xl border shadow-sm">
+          <h3 class="font-semibold">Consultas e Check-up</h3>
+          <p class="mt-2 text-sm text-slate-600">Estratificação de risco, prevenção, hipertensão, dislipidemia e dor torácica.</p>
+        </div>
+        <div class="p-6 bg-white rounded-2xl border shadow-sm">
+          <h3 class="font-semibold">Insuficiência Cardíaca</h3>
+          <p class="mt-2 text-sm text-slate-600">Avaliação, otimização terapêutica, educação do paciente e seguimento.</p>
+        </div>
+        <div class="p-6 bg-white rounded-2xl border shadow-sm">
+          <h3 class="font-semibold">Arritmias & FA</h3>
+          <p class="mt-2 text-sm text-slate-600">Diagnóstico, anticoagulação, manejo compartilhado e telemonitoramento.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pesquisa -->
+  <section id="pesquisa" class="py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-semibold">Pesquisa e Inovação</h2>
+      <div class="mt-6 grid md:grid-cols-2 gap-6">
+        <div class="p-6 border rounded-2xl">
+          <h3 class="font-medium">Doutorado – IA em Saúde</h3>
+          <p class="mt-2 text-sm text-slate-600">Modelo preditivo para detecção de injúria renal aguda em insuficiência cardíaca usando dados multimodais (clínicos, ECG e radiografias) nas primeiras 48h de internação.</p>
+        </div>
+        <div class="p-6 border rounded-2xl">
+          <h3 class="font-medium">Publicações & Palestras</h3>
+          <p class="mt-2 text-sm text-slate-600">Artigos, aulas e apresentações sobre aplicação de IA na tomada de decisão em cardiologia ambulatorial.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Conteúdos -->
+  <section id="conteudos" class="py-16 bg-slate-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-semibold">Conteúdos</h2>
+      <div class="mt-6 grid md:grid-cols-3 gap-6">
+        <article class="p-6 bg-white rounded-2xl border">
+          <h3 class="font-semibold">Guia rápido: dor torácica</h3>
+          <p class="mt-2 text-sm text-slate-600">Sinais de alarme, quando procurar emergência e prevenção.</p>
+          <a class="mt-3 inline-block text-primary-700 hover:underline" href="#">Ler mais</a>
+        </article>
+        <article class="p-6 bg-white rounded-2xl border">
+          <h3 class="font-semibold">Fibrilação Atrial: o essencial</h3>
+          <p class="mt-2 text-sm text-slate-600">Diagnóstico, controle de ritmo/frequência e anticoagulação.</p>
+          <a class="mt-3 inline-block text-primary-700 hover:underline" href="#">Ler mais</a>
+        </article>
+        <article class="p-6 bg-white rounded-2xl border">
+          <h3 class="font-semibold">IA na prática clínica</h3>
+          <p class="mt-2 text-sm text-slate-600">Como a IA pode apoiar decisões no consultório com segurança.</p>
+          <a class="mt-3 inline-block text-primary-700 hover:underline" href="#">Ler mais</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <div>
+          <h2 class="text-2xl font-semibold">Contato e Agendamento</h2>
+          <p class="mt-3 text-slate-600">Agende sua consulta presencial ou por telemedicina. Respondo em horário comercial.</p>
+          <ul class="mt-6 space-y-2 text-sm">
+            <li><strong>E-mail:</strong> contato@seu-dominio.com.br</li>
+            <li><strong>WhatsApp:</strong> (71) 9 9999-9999</li>
+            <li><strong>Endereço:</strong> Salvador – BA</li>
+          </ul>
+          <div class="mt-6 flex gap-3">
+            <a target="_blank" rel="noopener" href="https://wa.me/5571999999999" class="px-5 py-3 rounded-xl bg-emerald-600 text-white hover:bg-emerald-700">Falar no WhatsApp</a>
+            <a href="mailto:contato@seu-dominio.com.br" class="px-5 py-3 rounded-xl border border-slate-300 hover:border-primary-300">Enviar e-mail</a>
+          </div>
+        </div>
+        <div class="p-6 border rounded-2xl">
+          <form class="grid gap-4">
+            <input class="border rounded-lg px-3 py-2" placeholder="Nome" required>
+            <input class="border rounded-lg px-3 py-2" type="email" placeholder="E-mail" required>
+            <textarea class="border rounded-lg px-3 py-2" rows="4" placeholder="Mensagem"></textarea>
+            <button type="submit" class="px-4 py-2 rounded-lg bg-primary-600 text-white hover:bg-primary-700">Enviar</button>
+            <p class="text-xs text-slate-500">Este formulário é ilustrativo. Para envio real, usar serviço externo (Formspree, Getform) ou backend próprio.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-8 border-t">
+    <div class="max-w-6xl mx-auto px-4 text-sm text-slate-500 flex flex-col md:flex-row items-center justify-between gap-3">
+      <p>© <span id="year"></span> Dr. Gustavo Feitosa — CRM-BA. Todos os direitos reservados.</p>
+      <p><a class="hover:underline" href="#">Política de Privacidade</a></p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+  <!-- Google Analytics (opcional): substitua G-XXXX por sua tag e remova os comentários
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);} gtag('js', new Date());
+    gtag('config', 'G-XXXX');
+  </script> -->
+</body>
+</html>
