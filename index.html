@@ -4,34 +4,33 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Dr. Gustavo Feitosa | Cardiologista</title>
+
+  <!-- SEO -->
   <meta name="description" content="Cardiologista clínico em Salvador-BA. Prevenção, diagnóstico e tratamento personalizados. Integra evidências e IA aplicada à prática clínica.">
+  <link rel="canonical" href="https://seu-dominio.com.br/">
 
   <!-- Open Graph / Twitter -->
   <meta property="og:title" content="Dr. Gustavo Feitosa | Cardiologista" />
-  <meta property="og:description" content="Cardiologista clínico em Salvador-BA. Atendimento em consultório, telemedicina e pesquisa em IA em Saúde." />
+  <meta property="og:description" content="Cardiologista clínico em Salvador-BA. Prevenção, diagnóstico e tratamento personalizados. Integra evidências e IA aplicada à prática clínica." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="foto.jpeg" />
   <meta property="og:url" content="https://seu-dominio.com.br" />
   <meta name="twitter:card" content="summary_large_image" />
 
-  <!-- Tailwind CSS CDN (compatível com GitHub Pages) -->
+  <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
       theme: {
         extend: {
           colors: {
-            primary: {
-              50: '#eff6ff', 100: '#dbeafe', 200: '#bfdbfe', 300: '#93c5fd',
-              400: '#60a5fa', 500: '#3b82f6', 600: '#2563eb', 700: '#1d4ed8',
-              800: '#1e40af', 900: '#1e3a8a'
-            }
+            primary: {50:'#eff6ff',100:'#dbeafe',200:'#bfdbfe',300:'#93c5fd',400:'#60a5fa',500:'#3b82f6',600:'#2563eb',700:'#1d4ed8',800:'#1e40af',900:'#1e3a8a'}
           }
         }
       }
     }
   </script>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><text y='50%' x='50%' dominant-baseline='middle' text-anchor='middle' font-size='48'>❤️</text></svg>">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><text y='50%' x='50%' dominant-baseline='middle' text-anchor='middle' font-size='48'>❤️</text></svg>'>
 
   <!-- Schema.org JSON-LD -->
   <script type="application/ld+json">
@@ -40,12 +39,7 @@
     "@type": "Physician",
     "name": "Dr. Gustavo Feitosa",
     "medicalSpecialty": "Cardiology",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Salvador",
-      "addressRegion": "BA",
-      "addressCountry": "BR"
-    },
+    "address": {"@type":"PostalAddress","addressLocality":"Salvador","addressRegion":"BA","addressCountry":"BR"},
     "url": "https://seu-dominio.com.br",
     "sameAs": [
       "https://www.instagram.com/gustavo_freitas_feitosa/",
@@ -62,7 +56,7 @@
   <header class="sticky top-0 z-40 bg-white/80 backdrop-blur border-b border-slate-200">
     <div class="max-w-6xl mx-auto px-4">
       <div class="flex items-center justify-between h-16">
-        <a href="#" class="flex items-center gap-2 font-semibold">
+        <a href="/" class="flex items-center gap-2 font-semibold">
           <span class="text-primary-700">Dr. Gustavo Feitosa</span>
           <span class="hidden sm:inline text-slate-500">| Cardiologia</span>
         </a>
@@ -113,11 +107,11 @@
       <aside class="space-y-3">
         <div class="p-4 rounded-xl bg-primary-50 border border-primary-100">
           <p class="text-sm">CRM-BA 21730/BA • RQE 21919</p>
-          <p class="text-sm text-slate-600">Atendimento particular. Emito laudos, relatórios e segunda opinião.</p>
+          <p class="text-sm text-slate-600">Atendimento particular.</p>
         </div>
         <div class="p-4 rounded-xl border">
           <p class="text-sm font-medium">Locais de atendimento</p>
-          <p class="text-sm text-slate-600">Salvador – BA • Consultório nos Hospitais Aliança e Cárdio Pulmonar - Rede D’Or</p>
+          <p class="text-sm text-slate-600">Salvador – BA • Consultório nos Centros Médicos dos Hospitais Aliança e Cárdio Pulmonar - Rede D’Or</p>
         </div>
       </aside>
     </div>
@@ -170,145 +164,22 @@
     <div class="max-w-6xl mx-auto px-4">
       <h2 class="text-2xl font-semibold">Conteúdos</h2>
       <div class="mt-6 grid md:grid-cols-3 gap-6">
-        <!-- Card 1 -->
         <article class="p-6 bg-white rounded-2xl border">
           <h3 class="font-semibold">Exercício físico: por onde começar</h3>
           <p class="mt-2 text-sm text-slate-600">Benefícios, segurança e passos práticos para incluir atividade na rotina.</p>
-          <a class="mt-3 inline-block text-primary-700 hover:underline" href="#exercicio">Ler mais</a>
+          <a class="mt-3 inline-block text-primary-700 hover:underline" href="artigos/exercicio.html">Ler mais</a>
         </article>
-        <!-- Card 2 -->
         <article class="p-6 bg-white rounded-2xl border">
           <h3 class="font-semibold">Wearables em cardiologia</h3>
           <p class="mt-2 text-sm text-slate-600">Como relógios e sensores ajudam no monitoramento de saúde cardiovascular.</p>
-          <a class="mt-3 inline-block text-primary-700 hover:underline" href="#wearables">Ler mais</a>
+          <a class="mt-3 inline-block text-primary-700 hover:underline" href="artigos/wearables.html">Ler mais</a>
         </article>
-        <!-- Card 3 -->
         <article class="p-6 bg-white rounded-2xl border">
           <h3 class="font-semibold">Hipertensão arterial: o essencial</h3>
           <p class="mt-2 text-sm text-slate-600">Diagnóstico, metas de pressão e tratamento baseado em evidências.</p>
-          <a class="mt-3 inline-block text-primary-700 hover:underline" href="#hipertensao">Ler mais</a>
+          <a class="mt-3 inline-block text-primary-700 hover:underline" href="artigos/hipertensao.html">Ler mais</a>
         </article>
       </div>
-    </div>
-  </section>
-
-  <!-- Artigos (destino dos links "Ler mais") -->
-  <section id="artigos" class="py-16">
-    <div class="max-w-6xl mx-auto px-4 space-y-12">
-      <!-- Exercício -->
-      <article id="exercicio" class="prose prose-slate max-w-none">
-        <h2>Exercício físico: por onde começar</h2>
-        <p>A prática de exercícios físicos é um dos maiores investimentos que você pode fazer na sua saúde. Ela funciona como um escudo protetor para evitar que doenças apareçam e, para quem já tem alguma condição de saúde, se torna uma ferramenta poderosa para controlar e melhorar a qualidade de vida.</p>
-        <p>Veja, de forma simples, como o exercício faz toda a diferença:</p>
-
-        <h3>1. Para prevenir doenças — seu escudo de proteção</h3>
-        <ul>
-          <li><strong>Protege seu coração</strong>: a atividade física é a melhor amiga do seu coração.</li>
-          <li><strong>Controla a pressão</strong>: age como um “remédio” natural para a pressão alta, ajudando a relaxar os vasos.</li>
-          <li><strong>Regula colesterol e açúcar</strong>: mantém colesterol e glicemia em níveis saudáveis, prevenindo diabetes e problemas de circulação.</li>
-          <li><strong>Ajuda a manter o peso</strong>: estratégia central para evitar sobrepeso/obesidade, fatores de risco para várias doenças.</li>
-          <li><strong>Faz bem para a mente</strong>: combate estresse, ansiedade e depressão; melhora humor, disposição e sono.</li>
-          <li><strong>Fortalece ossos e músculos</strong>: previne osteoporose e reduz risco de quedas, sobretudo na terceira idade.</li>
-          <li><strong>Aumenta a imunidade</strong>: pessoas ativas ficam mais protegidas contra gripes e infecções e se recuperam mais rápido.</li>
-          <li><strong>Combate o sedentarismo</strong>: evite longos períodos sentado; levante-se por pelo menos 5 minutos a cada meia hora.</li>
-        </ul>
-
-        <h3>2. Para tratar doenças — parte essencial do cuidado</h3>
-        <ul>
-          <li><strong>Doenças do coração</strong>: após infarto ou cirurgia, a reabilitação com exercícios fortalece o coração e reduz reinternações.</li>
-          <li><strong>Insuficiência cardíaca</strong>: melhora a capacidade funcional e a qualidade de vida.</li>
-          <li><strong>Após transplante de coração</strong>: atividade física auxilia a recuperação e o condicionamento.</li>
-          <li><strong>Problemas de circulação nas pernas</strong>: caminhadas orientadas reduzem dor e aumentam a distância percorrida.</li>
-          <li><strong>Gravidez</strong>: exercício moderado reduz risco de diabetes gestacional, pressão alta e depressão pós-parto.</li>
-          <li><strong>Marcapasso/Desfibrilador (CDI)</strong>: o exercício é seguro com orientação, aumentando resistência e função cardíaca.</li>
-        </ul>
-
-        <h3>Dicas importantes antes de começar</h3>
-        <ul>
-          <li><strong>Converse com seu médico</strong>: essencial antes de iniciar, principalmente em caso de doenças ou treino intenso.</li>
-          <li><strong>Não precisa ser atleta</strong>: meta geral de 150 minutos/semana de atividade moderada ou 75 minutos de vigorosa, mais exercícios de força 2x/semana.</li>
-          <li><strong>Busque ajuda profissional</strong>: educação física/fisioterapia ajudam a montar um plano seguro e eficaz.</li>
-        </ul>
-
-        <p><strong>Em resumo</strong>, a atividade física é uma ferramenta poderosa para sua saúde. Não se trata apenas de estética: é viver mais e melhor, com disposição e bem-estar em todas as fases da vida.</p>
-      </article>
-
-      <!-- Wearables -->
-      <article id="wearables" class="prose prose-slate max-w-none">
-        <h2>Dispositivos vestíveis: o guardião da sua saúde cardíaca no dia a dia</h2>
-        <p>Você já parou para pensar que a mesma tecnologia que você usa no pulso para ver as horas, ler mensagens ou monitorar sua corrida pode ser uma das ferramentas mais poderosas para cuidar do seu coração?</p>
-        <p>Estamos falando dos dispositivos vestíveis — <em>wearables</em> — como relógios, pulseiras e anéis inteligentes. Eles evoluíram de simples contadores de passos para se tornarem aliados da saúde, funcionando como um guardião que acompanha seu coração 24 horas por dia.</p>
-        <p>Imagine monitorar sua saúde cardíaca não só por alguns minutos no consultório, mas durante o trabalho, o sono e as atividades diárias. Essa é a revolução que os wearables trazem para a medicina.</p>
-
-        <h3>Como a tecnologia no pulso pode cuidar do seu coração?</h3>
-        <h4>1) Um “raio-X” em tempo real</h4>
-        <p>O monitoramento contínuo registra a frequência cardíaca em repouso, no exercício e em momentos de estresse, criando um mapa do comportamento do coração ao longo do dia.</p>
-
-        <h4>2) Alertas que podem salvar vidas</h4>
-        <p>Muitos relógios realizam um ECG simplificado. Isso ajuda a detectar arritmias — como a fibrilação atrial — e permite intervenção precoce para reduzir riscos, como o AVC.</p>
-
-        <h4>3) Sono como janela da saúde cardíaca</h4>
-        <p>Wearables analisam a qualidade do sono e podem sugerir sinais de apneia, condição associada à hipertensão e maior risco cardiovascular.</p>
-
-        <h4>4) O poder da IA: prevendo riscos</h4>
-        <p>Algoritmos de inteligência artificial identificam padrões sutis e podem estimar risco de insuficiência cardíaca ou doença coronária, apoiando um cuidado proativo e personalizado.</p>
-
-        <h4>5) Um diário útil para o seu médico</h4>
-        <p>Os dados ajudam a avaliar risco, resposta a medicamentos e decisões terapêuticas com base na sua rotina real.</p>
-
-        <h3>Visão médica: aliada, não substituta</h3>
-        <p>Wearables ampliam a vigilância e a qualidade do cuidado, mas não substituem a avaliação clínica. Use os dados para conversar com seu médico — nada de autodiagnóstico ou ajuste de tratamento por conta própria.</p>
-
-        <p><strong>Resumo:</strong> vestíveis colocam você no centro do cuidado, viabilizando medicina preventiva e contínua, com decisões mais rápidas e seguras antes que os problemas fiquem graves.</p>
-      </article>
-
-      <!-- Hipertensão -->
-      <article id="hipertensao" class="prose prose-slate max-w-none">
-        <h2>Pressão alta: entendendo e controlando o inimigo silencioso</h2>
-        <p>Imagine as artérias do seu corpo como mangueiras por onde o sangue circula. A pressão arterial é a força que esse sangue faz na parede das artérias. Quando essa força está constantemente alta, chamamos de hipertensão, ou a famosa pressão alta.</p>
-        <p>Ela é considerada uma “inimiga silenciosa” porque, na maioria das vezes, não causa sintomas. Você pode tê-la por anos sem saber, enquanto ela silenciosamente desgasta seu corpo.</p>
-
-        <h3>A regra de ouro: o que se mede, melhora!</h3>
-        <p>Existe um conceito poderoso que se aplica perfeitamente à pressão alta: aquilo que você mede e acompanha, tende a melhorar. O simples ato de verificar sua pressão regularmente já é o primeiro passo para tomar o controle da sua saúde.</p>
-        <p>Quando você sabe seus números (o ideal é abaixo de <strong>140 por 90 mmHg</strong>, ou <strong>14 por 9</strong>), você pode agir. Medir transforma um problema invisível em algo concreto que você e seu médico podem gerenciar.</p>
-
-        <h3>Por que se preocupar com a pressão alta?</h3>
-        <ul>
-          <li><strong>Coração:</strong> aumenta risco de infarto, insuficiência cardíaca e arritmias.</li>
-          <li><strong>Cérebro:</strong> principal causa de derrame (AVC), tanto isquêmico quanto hemorrágico.</li>
-          <li><strong>Rins:</strong> causa doença renal crônica, podendo levar à diálise.</li>
-          <li><strong>Visão e circulação:</strong> danifica vasos dos olhos e das pernas.</li>
-        </ul>
-
-        <h3>De onde ela vem?</h3>
-        <p>É resultado de múltiplos fatores.</p>
-        <ul>
-          <li><strong>Não controláveis:</strong> idade e histórico familiar.</li>
-          <li><strong>Controláveis:</strong> excesso de peso, dieta rica em sal e pobre em potássio, sedentarismo, álcool em excesso, diabetes, apneia do sono e estresse.</li>
-        </ul>
-
-        <h3>Como descobrir e acompanhar?</h3>
-        <ul>
-          <li><strong>No consultório:</strong> método clássico de diagnóstico.</li>
-          <li><strong>Em casa:</strong> usar aparelhos validados ajuda a evitar a “hipertensão do avental branco”.</li>
-        </ul>
-
-        <h3>Boa notícia: tem prevenção e tratamento!</h3>
-        <p>O objetivo é reduzir o risco de complicações. O cuidado tem dois pilares:</p>
-
-        <h4>1) Mudanças no estilo de vida</h4>
-        <ul>
-          <li><strong>Alimentação:</strong> menos sal; mais frutas, verduras e integrais.</li>
-          <li><strong>Mexa-se:</strong> atividade física regular é um dos melhores “remédios”.</li>
-          <li><strong>Controle de peso:</strong> perder alguns quilos já ajuda.</li>
-          <li><strong>Álcool com moderação.</strong></li>
-        </ul>
-
-        <h4>2) Medicamentos</h4>
-        <p>Na maioria dos casos, somam-se aos hábitos saudáveis. Existem várias classes; seu médico definirá a melhor combinação. <strong>Adesão diária</strong> é fundamental.</p>
-
-        <p><strong>Mensagem final:</strong> a pressão alta é séria, mas controlável. Com diagnóstico precoce, acompanhamento regular e um estilo de vida saudável, é possível manter bons níveis e viver mais e melhor. Comece medindo: conhecer seus números é o primeiro passo.</p>
-      </article>
     </div>
   </section>
 
@@ -345,18 +216,6 @@
     </div>
   </footer>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
-
-  <!-- Google Analytics (opcional) -->
-  <!--
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXX"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);} gtag('js', new Date());
-    gtag('config', 'G-XXXX');
-  </script>
-  -->
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
